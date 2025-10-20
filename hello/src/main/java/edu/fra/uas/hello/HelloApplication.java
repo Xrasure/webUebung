@@ -20,6 +20,7 @@ public class HelloApplication {
         return args -> {
             service.addGrade("Mathe", 1.3, 5);
             service.addGrade("Programmierung", 2.0, 10);
+			service.addGrade("Rechnungswesen", 4.0, 10);
 
             System.out.println("🧮 Notendurchschnitt:");
             System.out.println("Ungewichtet: " + service.average());

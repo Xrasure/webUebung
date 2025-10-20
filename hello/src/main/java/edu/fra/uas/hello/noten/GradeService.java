@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
-@Service  // wichtig: macht die Klasse zu einer Bean!
+@Service  
 public class GradeService {
 
     private final List<Grade> grades = new ArrayList<>();
